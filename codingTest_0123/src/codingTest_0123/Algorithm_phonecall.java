@@ -2,6 +2,10 @@ package codingTest_0123;
 
 import java.util.*;
 
+//테스트 1 〉	통과 (3.52ms, 56.6MB)
+//테스트 2 〉	통과 (7.52ms, 57.2MB)
+//테스트 3 〉	통과 (320.01ms, 219MB)
+//테스트 4 〉	통과 (234.93ms, 139MB)
 //참고
 //https://suzxc2468.tistory.com/205
 public class Algorithm_phonecall {
