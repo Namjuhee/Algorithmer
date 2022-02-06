@@ -6,11 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//테스트 1 〉	통과 (15.59ms, 73.1MB)
-//테스트 2 〉	통과 (18.73ms, 84.9MB)
-//테스트 3 〉	통과 (15.50ms, 69.5MB)
-//테스트 4 〉	통과 (15.30ms, 79MB)
-//테스트 5 〉	통과 (23.22ms, 84.7MB)
 
 public class Algorithm_album {
 	public static int[] solution(String[] genres, int[] plays) {
@@ -109,3 +104,19 @@ public class Algorithm_album {
         System.out.println(Arrays.toString(result));
     }
 }
+
+/*테스트 1 〉	통과 (15.59ms, 73.1MB)
+테스트 2 〉	통과 (18.73ms, 84.9MB)
+테스트 3 〉	통과 (15.50ms, 69.5MB)
+테스트 4 〉	통과 (15.30ms, 79MB)
+테스트 5 〉	통과 (23.22ms, 84.7MB)
+테스트 6 〉	통과 (25.87ms, 91.3MB)
+테스트 7 〉	통과 (25.49ms, 78.8MB)
+테스트 8 〉	통과 (19.47ms, 85.4MB)
+테스트 9 〉	통과 (21.30ms, 76.3MB)
+테스트 10 〉	통과 (19.95ms, 77.8MB)
+테스트 11 〉	통과 (17.82ms, 79.7MB)
+테스트 12 〉	통과 (17.16ms, 85.7MB)
+테스트 13 〉	통과 (17.72ms, 86.4MB)
+테스트 14 〉	통과 (26.61ms, 85.7MB)
+테스트 15 〉	통과 (15.70ms, 77.5MB)*/
