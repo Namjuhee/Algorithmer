@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 // 입력받은 요소를 해시에 입력
 // 입력 받을 갯수/문제 갯수로 배열의 크기 지정
 // key 값으로 value찾기, value값으로 key값 찾기
+// 메모리 96492	시간 852
 
 // 참고
 // https://maivve.tistory.com/140
@@ -41,6 +42,9 @@ public class Algorithm_pocketmon {
 			sb.append("\n");
 		}
 				
+		//이 방식으로 하려면 Map을 두개 만들어서 하는게 좋다
+		//참고용 풀이
+		//https://github.com/chans08/Algorithm/blob/master/backjoon/hashing/_1620_i_am_poketmon_master_leedasom.java
 		//try {
 		//	for(i=0; i < M; i++) {
 		//		if (scanner.hasNextInt()) {
