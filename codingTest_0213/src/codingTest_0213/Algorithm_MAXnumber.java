@@ -1,6 +1,7 @@
 package codingTest_0213;
 import java.util.Arrays;
 
+//선택 정렬 사용
 //시간 초과
 public class Algorithm_MAXnumber {
 	public String solution(int[] numbers) {
