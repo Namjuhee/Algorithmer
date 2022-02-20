@@ -23,7 +23,7 @@ import java.util.*;
 // 접근은 맞게 했는데 구현에서 애를 먹었다
 // citations[i]번 이상 인용된 횟수는
 // H-index 는 citations.length - i이고,
-// 인용된 횟수가 H-index 이상이면 답
+// 인용된 횟수가 H-index 이상이면 답이다
 
 public class Algorithm_H_Index {
 	public int solution(int[] citations) {

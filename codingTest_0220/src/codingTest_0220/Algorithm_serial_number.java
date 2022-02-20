@@ -32,7 +32,7 @@ public class Algorithm_serial_number {
 				sum += intStr % 10;
 				intStr /= 10;
 			}
-			
+			//?
 			
 		}
 		
