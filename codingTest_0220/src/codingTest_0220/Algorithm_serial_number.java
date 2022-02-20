@@ -20,25 +20,26 @@ public class Algorithm_serial_number {
 		}
 		
 		//A와 B의 길이가 다르면, 짧은 것이 먼저 온다.
-		Arrays.sort(arr, (a, b) -> a.length() - b.length());
-		
-		//만약 서로 길이가 같다면, A의 모든 자리수의 합과 B의 모든 자리수의 합을 비교해서 작은 합을 가지는 것이 먼저온다. (숫자인 것만 더한다)
-		for (int i=0; i<N; i++) {
-			String Str = arr[i].replaceAll("[^0-9]", "");
-			int intStr = Integer.parseInt(Str);
-			int sum = 0;
-			
-			while(intStr > 0) {
-				sum += intStr % 10;
-				intStr /= 10;
-			}
-			//?
-			
-		}
-		
-		for (int i=0; i<N; i++) {
-			System.out.println(arr[i]);
-		}
-		
+//		Arrays.sort(arr, (o1, o2) -> {
+//            if((o1.length() - o2.length()) == 0){   // 1. 길이비교
+//                int a = getSum(o1);
+//                int b = getSum(o2);
+//                if(a - b == 0){                 // 2. 문자열에 숫자값의 합 비교
+//                    return o1.compareTo(o2);    // 3. 알파벳 순서 = 문자열 비교
+//                }
+//                else {
+//                    return a - b;
+//                }
+//            }else {
+//                return o1.length() - o2.length();
+//            }
+//        });
+//        for (String s : arr) System.out.println(s);
+//    }
+//   public static int getSum(String s){
+//        int a=0;
+//        s = s.replaceAll("[^0-9]","");
+//        for(char c : s.toCharArray()) a+=Character.getNumericValue(c);
+//        return a;	
 	}
 }
